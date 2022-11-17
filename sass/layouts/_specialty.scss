@@ -1,29 +1,26 @@
 .specialty {
-    padding: 94px 0;
-  }
-  
-  .specialty__list {
-    display: flex;
-    gap: 30px;
-    min-width: 270px;
-    justify-content: space-between;
-  }
-  
-  .specialty__item {
-    flex-shrink: 0;
-    max-width: 270px;
-  }
-  
-  .specialty__item-container {
-    width: 270px;
-    height: 120px;
-    background: #f5f4fa;
-    border-radius: 4px;
-    margin-bottom: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
- 
-  
+  padding: 94px 0;
+}
+
+.specialty__list {
+  display: flex;
+  gap: 30px;
+  min-width: 270px;
+  justify-content: space-between;
+}
+
+.specialty__item {
+  flex-shrink: 0;
+  max-width: 270px;
+}
+
+.specialty__item-container {
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,6 +1,3 @@
-
-
-
 .clients-container {
   display: flex;
   gap: 30px;
@@ -25,8 +22,8 @@
   transition-property: border;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-      &:hover,
-      &:focus {
+  &:hover,
+  &:focus {
     border: 1px solid var(--bg-color);
   }
 }
@@ -36,11 +33,8 @@
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-      .clients-link:hover &,
-      .clients-link:focus & {
-       fill: var(--bg-color);
+  .clients-link:hover &,
+  .clients-link:focus & {
+    fill: var(--bg-color);
   }
 }
-
-
-

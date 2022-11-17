@@ -1,67 +1,64 @@
 .hero-wrap {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .hero {
-    background-color: #c4c4c4;
-    color: var(--accent-text-color);
-    padding-top: 200px;
-    padding-bottom: 200px;
-    background-image: linear-gradient(
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-      ),
-      url(../img/imgbackgr.jpg);
-  
-    background-repeat: no-repeat;
-    max-width: 1600px;
-    margin: 0 auto;
-  }
-  
-  .hero__title {
-    color: var(--accent-text-color);
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    max-width: 697px;
-    margin: 0 auto;
-    margin-bottom: 30px;
-  }
-  
-  .hero__button {
-    font-family: inherit;
-    cursor: pointer;
-  }
-  .hero .hero__button {
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  justify-content: center;
+}
 
-    &:hover,
-    &:focus {
-      background-color: var(--logo-hover);
-    }
+.hero {
+  background-color: #c4c4c4;
+  color: var(--accent-text-color);
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../img/imgbackgr.jpg);
+
+  background-repeat: no-repeat;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.hero__title {
+  color: var(--accent-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  max-width: 697px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.hero__button {
+  font-family: inherit;
+  cursor: pointer;
+}
+.hero .hero__button {
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: var(--logo-hover);
   }
-  
-  
-  
-  .hero__button.primery {
-    background-color: var(--bg-color);
-    color: var(--accent-text-color);
-    border: none;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.06em;
-    display: block;
-    min-width: 216px;
-    min-height: 50px;
-    border-radius: 4px;
-    padding: 10px 32px;
-    margin: 0 auto;
-  }
-  
+}
+
+.hero__button.primery {
+  background-color: var(--bg-color);
+  color: var(--accent-text-color);
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  display: block;
+  min-width: 216px;
+  min-height: 50px;
+  border-radius: 4px;
+  padding: 10px 32px;
+  margin: 0 auto;
+}
